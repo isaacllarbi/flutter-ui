@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Color(0xffff631a),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: AsosHomeScreen(),
+      home: PortfolioScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
