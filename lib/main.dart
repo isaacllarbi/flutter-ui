@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/asos/home_screen.dart';
-import 'package:flutter_ui/asos/splash_screen.dart';
-import 'package:flutter_ui/kadi/home_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -37,22 +34,22 @@ class PortfolioScreen extends StatelessWidget {
             ListTile(
               title: Text('Kadi'),
               subtitle: Text('Delivery service.'),
-              onTap: () => Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (ctx) => KadiHomeScreen(),
-                ),
-              ),
+              // onTap: () => Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (ctx) => KadiHomeScreen(),
+              //   ),
+              // ),
             ),
             ListTile(
               title: Text('ASOS'),
               subtitle: Text('Buy clothing, cosmetics and footware.'),
-              onTap: () => Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (ctx) => AsosSplashScreen(),
-                ),
-              ),
+              // onTap: () => Navigator.push(
+              //   context,
+              //   MaterialPageRoute(
+              //     builder: (ctx) => AsosSplashScreen(),
+              //   ),
+              // ),
             ),
           ],
         ),
